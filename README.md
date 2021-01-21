@@ -2,8 +2,9 @@
 
 ### Pre-requests
 
-*This text will be italic*
-_This will also be italic_
+* Python 3.6 or above
+* pip3
+* virtualenv 
 
 
 
