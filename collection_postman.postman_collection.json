@@ -1,0 +1,46 @@
+{
+	"id": "c406b36a-4798-0866-9ef1-54c236f44f09",
+	"name": "collection_postman",
+	"description": "",
+	"order": [
+		"ccec693e-5bff-ca24-51f4-c697c7e1bbf4"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1611218686574,
+	"owner": "7737075",
+	"public": false,
+	"requests": [
+		{
+			"id": "ccec693e-5bff-ca24-51f4-c697c7e1bbf4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/payment/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c406b36a-4798-0866-9ef1-54c236f44f09",
+			"data": [],
+			"dataMode": "raw",
+			"name": "add card detail and make payments",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611219001217,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"credit_card_number\":\"5553042241984105\",\"card_holder\":\"priyam\",\"expiration_date\":\"2022-12-06\",\"security_code\":\"121\",\"amount\":\"1007\"}"
+		}
+	]
+}
